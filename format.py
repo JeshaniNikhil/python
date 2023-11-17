@@ -1,0 +1,6 @@
+tx1="Good {}".format("morning")
+print(tx1)
+tx2="hello {1} and {0}".format("xyz","abc")
+print(tx2)
+tx2="hello {b:^10} and {a:<10} bfjdbd".format(a="xyz",b="abc")
+print(tx2)
